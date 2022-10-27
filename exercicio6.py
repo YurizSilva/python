@@ -1,11 +1,11 @@
-turno = input("Digite qual o Turno em que você estuda - Matutino, Vespertino ou noturno: ")
+turno = input("Digite qual o Turno em que você estuda - matutino, vespertino ou noturno: ")
 
 match turno:
     case"matutino":
         print ("bom dia estudante!")
-    case"verpertino":
+    case"vespertino":
         print ("boa tarde estudante!")
     case"noturno":
         print ("boa noite estudante!")
-    case (others):
+    case _:
         print ("turno invalido")
