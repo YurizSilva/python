@@ -1,14 +1,25 @@
-final = 'sim'
-while final == "sim":
-    else (final == "não"):
-if (*)
-pri1 = int(input("digite o numero da sua tabuada:", ))
-inicio = int(input("digite o inicio da sua tabuada: ", ))
-fim = int(input("digite o fim da sua tabuada"))
+final = "S"
+while final == "S":
 
-for i in range(inicio, fim + 1):
-     print(pri1 * i)
+    num1 = float(input("Digite o primeiro numero inteiro: "))
+    num2 = float(input("Digite o segundo numero inteiro: "))
 
+    resultado1 = num1 + num2
+    print("resultado da soma dos dois numeros é: ", resultado1)
 
-final = (str(input("se quiser continuar digite sim se nao quiser digite não: ",)))
+    resultado2 = num1 - num2
+    print("resultado da subtratação dois numeros é: ", resultado2)
 
+    resultado3 = num1 / num2
+    print("resultado da divisão dois numeros é: ", resultado3)
+
+    resultado4 = num1 % num2
+    print("resto da divisão dos dois numeros é: ", resultado4)
+
+    resultado5 = num1 ** num2
+    print("resultado da potencia dos dois numeros é: ", resultado5)
+
+    resultado = num1 * num2
+    print("resultado da multiplicação dos dois numeros é: ", resultado)
+
+    final = input("se quiser continuar digite S se não quiser digite N: ",).upper()
