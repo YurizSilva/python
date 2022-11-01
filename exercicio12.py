@@ -7,7 +7,7 @@ print("Lista de caracteres: ", lista)
 def conta_consoante(lista):
     soma = 0
     for i in lista:
-            if i == 'a' or i == 'e' or i == 'i' or i == 'o'or i == 'u':
+            if i == 'a' or i == 'e' or i == 'i' or i == 'o'or i == 'u' or i == '':
                 continue
             else:
                 soma += 1
