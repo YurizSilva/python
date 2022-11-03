@@ -12,3 +12,5 @@ print("desconto inss: ", inss)
 print("desconto impostode renda: ", inpostorenda)
 print("desconto sindicato: ", sindicato)
 print("salario liquido: ", salarioliquido)
+
+
